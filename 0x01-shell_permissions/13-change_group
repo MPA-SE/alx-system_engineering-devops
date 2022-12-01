@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp school file/0x01-shell_permissions
+chgrp school hello
