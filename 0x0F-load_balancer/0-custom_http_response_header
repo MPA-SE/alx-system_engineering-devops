@@ -10,7 +10,6 @@ echo "Hello World!" | sudo tee /var/www/html/index.html
 
 # Performing a redirection
 new_string="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/MPA-SE permanent;"
-
 sudo sed -i "s/server_name _;/$new_string/" /etc/nginx/sites-enabled/default
 
 # Creating a custom error page
