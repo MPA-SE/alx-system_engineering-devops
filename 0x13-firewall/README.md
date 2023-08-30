@@ -1,0 +1,1 @@
+Servers without a firewall are not secure. We however have to be careful with firewalls. This directory shows installation of ufw firewall and port forwarding. All the work will done on my web server 1 of the Holberton school.
